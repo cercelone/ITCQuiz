@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">ITC Quiz</string>
+
+    //First question and answers
+    <string name="question_no1">1. Real time protection of a computer against viruses and malitios atacks ca be done by:</string>
+    <string name="question1_answ1">Disk Cleanup</string>
+    <string name="question1_answ2">Scan Disk</string>
+    <string name="question1_answ3">Anti Spyware and Antivirus software</string>
+    <string name="question1_answ4">Disk Management</string>
+
+    //Second question and answers
+    <string name="question_no2">2. Which one is an Operating System?</string>
+    <string name="question2_answ1">Google Chrome</string>
+    <string name="question2_answ2">Internet Explorer</string>
+    <string name="question2_answ3">Windows 7</string>
+    <string name="question2_answ4">Opera</string>
+
+    //Third question and answers
+    <string name="question_no3">3. Chose the device used to store data.</string>
+    <string name="question3_answ1">Hard Disk Drive</string>
+    <string name="question3_answ2">Monitor</string>
+    <string name="question3_answ3">Scanner</string>
+    <string name="question3_answ4">Joystick</string>
+
+    //4th question and answers
+    <string name="question_no4">4. Choose image file extensions.</string>
+    <string name="question4_answ1">.jpg</string>
+    <string name="question4_answ2">.pdf</string>
+    <string name="question4_answ3">.png</string>
+    <string name="question4_answ4">.pptx</string>
+
+    //5th question and answers
+    <string name="question_no5">5. Which of the following  are multiples of Byte?</string>
+    <string name="question5_answ1">TB</string>
+    <string name="question5_answ2">Hz</string>
+    <string name="question5_answ3">MB</string>
+    <string name="question5_answ4">KHz</string>
+
+    //6th question and answers
+    <string name="question_no6">6. What is the measure unit of memory? </string>
+    <string name="question6_answ1">RAM</string>
+    <string name="question6_answ2">Byte</string>
+    <string name="question6_answ3">File</string>
+    <string name="question6_answ4">Hz</string>
+
+    //7th question and answers
+    <string name="question_no7">7. Choose email addresses with wrong syntax.</string>
+    <string name="question7_answ1">ana@lugojana@yahoo.com</string>
+    <string name="question7_answ2">anutza.gmail.com</string>
+    <string name="question7_answ3">ana.lugojana@yahoo.com</string>
+    <string name="question7_answ4">office@portal.ro</string>
+
+    //8th question and answers
+    <string name="question_no8">8. Choose applications used to navigate on internet.</string>
+    <string name="question8_answ1">Mozilla Firefox</string>
+    <string name="question8_answ2">WordPad</string>
+    <string name="question8_answ3">Opera</string>
+    <string name="question8_answ4">Internet Explorer</string>
+
+    //9th question and answersous
+    <string name="question_no9">9. Choose URLs with correct syntax.</string>
+    <string name="question9_answ1">http://www.google.ro</string>
+    <string name="question9_answ2">http://www.ismb.edu.ro/index.php</string>
+    <string name="question9_answ3">ftp://select.edu.ro</string>
+    <string name="question9_answ4">http:\math.com</string>
+
+    //10th question and answers
+    <string name="question_no10">10. In SPAM folder of a Mail Application are stored...</string>
+    <string name="question10_answ1">messages marked for delete</string>
+    <string name="question10_answ2">messages edited and not sent</string>
+    <string name="question10_answ3">unwanted commercial messages</string>
+    <string name="question10_answ4">copies of sent messages</string>
+
+    //Next, previous and Finish Buttons text
+    <string name="nextButton">Next</string>
+    <string name="previousButton">Previous</string>
+    <string name="finishButton">Finish</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="questionsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="nextButtonsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/buttonsTextColor</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="previousButtonsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/buttonsTextColor</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="radioButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:paddingLeft">@dimen/radioButtonLeftPadding</item>
+        <item name="android:textSize">@dimen/radioButtonTextSize</item>
+    </style>
+
+    <style name="checkBoxStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:paddingLeft">@dimen/checkBoxLeftPadding</item>
+        <item name="android:textSize">@dimen/checkBoxTextSize</item>
+    </style>
+
+    <style name="radioGroupStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/radioGroupMarginTop</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+</resources>
