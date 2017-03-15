@@ -1,12 +1,22 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- padding for the quizz -->
     <dimen name="appPaddings">16dp</dimen>
+
+    <!-- distance from radioButtons and checkBoxes of the answers and text of the answers -->
     <dimen name="checkBoxLeftPadding">24dp</dimen>
-    <dimen name="checkBoxTextSize">16sp</dimen>
     <dimen name="radioButtonLeftPadding">24dp</dimen>
+
+    <!-- textSize for the answers -->
+    <dimen name="checkBoxTextSize">16sp</dimen>
     <dimen name="radioButtonTextSize">16sp</dimen>
+
+    <!-- textSize for the questions -->
     <dimen name="questionsTextSize">16sp</dimen>
-    <dimen name="radioGroupMarginTop">8dp</dimen>
+
+    <!-- paddings for the questions -->
+    <dimen name="questionPadding">8dp</dimen>
+
+    <!-- distance between questions and answers -->
+    <dimen name="questionMarginBottom">8dp</dimen>
 </resources>

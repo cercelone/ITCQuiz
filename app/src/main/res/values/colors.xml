@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- the color used for the appBar -->
     <color name="colorPrimary">#00BCD4</color>
+
     <color name="colorPrimaryDark">#0097A7</color>
+
+    <!-- the color used for the background of the questions -->
     <color name="colorPrimaryLight">#B2EBF2</color>
+
+    <!-- the color used for butons checked -->
     <color name="colorAccent">#FF4081</color>
+
+    <!-- the color for the text of the questions -->
     <color name="primaryText">#212121</color>
+
+    <!-- the color for the text of the answesr -->
     <color name="secondaryText">#757575</color>
+
+    <!-- these two colors are not used but saved in case of any use of icons and dividers -->
     <color name="colorIconsText">#FFFFFF</color>
     <color name="colorDivider">#BDBDBD</color>
+
+
+    <!-- the color used for the text of the Previous, Next and Finish buttons-->
     <color name="buttonsTextColor">#0097A7</color>
 </resources>

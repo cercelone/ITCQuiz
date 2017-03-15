@@ -48,8 +48,7 @@
 
             <Button
                 style="@style/nextButtonsStyle"
-                android:text="@string/nextButton"
-                android:onClick="viewQuestionNo2"/>
+                android:text="@string/nextButton" />
         </RelativeLayout>
 
         <TextView
@@ -396,6 +395,7 @@
                 android:text="@string/previousButton" />
 
             <Button
+                android:id="@+id/finish_button"
                 style="@style/nextButtonsStyle"
                 android:onClick="submitScore"
                 android:text="@string/finishButton" />
