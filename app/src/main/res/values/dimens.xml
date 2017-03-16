@@ -3,7 +3,7 @@
     <!-- padding for the quizz -->
     <dimen name="appPaddings">16dp</dimen>
 
-    <!-- distance from radioButtons and checkBoxes of the answers and text of the answers -->
+    <!-- distance from radioButtons/checkBoxes and text of the answers -->
     <dimen name="checkBoxLeftPadding">24dp</dimen>
     <dimen name="radioButtonLeftPadding">24dp</dimen>
 
@@ -19,4 +19,12 @@
 
     <!-- distance between questions and answers -->
     <dimen name="questionMarginBottom">8dp</dimen>
+
+    <!-- radioGroup left and right padding -->
+    <dimen name="radioGroupPadding">8dp</dimen>
+
+    <!-- checkBoxes left and right margin -->
+    <dimen name="checkBoxMargin">8dp</dimen>
+
+
 </resources>

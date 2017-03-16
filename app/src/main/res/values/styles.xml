@@ -16,7 +16,7 @@
         <item name="android:padding">@dimen/questionPadding</item>
         <item name="android:layout_marginBottom">@dimen/questionMarginBottom</item>
         <item name="android:textColor">@color/primaryText</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/questionsTextSize</item>
     </style>
 
     <!-- Style for the Next Buttons -->
@@ -55,6 +55,8 @@
         <item name="android:layout_weight">1</item>
         <item name="android:textColor">@color/secondaryText</item>
         <item name="android:paddingLeft">@dimen/checkBoxLeftPadding</item>
+        <item name="android:layout_marginLeft">@dimen/checkBoxMargin</item>
+        <item name="android:layout_marginRight">@dimen/checkBoxMargin</item>
         <item name="android:textSize">@dimen/checkBoxTextSize</item>
     </style>
 
@@ -63,6 +65,14 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/radioGroupPadding</item>
+        <item name="android:paddingRight">@dimen/radioGroupPadding</item>
+    </style>
+
+    <!-- Style for the CardViews -->
+    <style name="cardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
     </style>
 
 </resources>

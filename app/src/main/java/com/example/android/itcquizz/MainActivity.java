@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -12,16 +13,50 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    int score;
-    boolean clicked = false;
+    int score; //total score
+    boolean clicked = false; //it becomes true if the FINISH button is pressed
+
+    CardView question1;
+    CardView question2;
+    CardView question3;
+    CardView question4;
+    CardView question5;
+    CardView question6;
+    CardView question7;
+    CardView question8;
+    CardView question9;
+    CardView question10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        question1 = (CardView) findViewById(R.id.cardViewQuestion1);
+        question2 = (CardView) findViewById(R.id.cardViewQuestion2);
+        question3 = (CardView) findViewById(R.id.cardViewQuestion3);
+        question4 = (CardView) findViewById(R.id.cardViewQuestion4);
+        question5 = (CardView) findViewById(R.id.cardViewQuestion5);
+        question6 = (CardView) findViewById(R.id.cardViewQuestion6);
+        question7 = (CardView) findViewById(R.id.cardViewQuestion7);
+        question8 = (CardView) findViewById(R.id.cardViewQuestion8);
+        question9 = (CardView) findViewById(R.id.cardViewQuestion9);
+        question10 = (CardView) findViewById(R.id.cardViewQuestion10);
+
+        //at start all questions are invisible, except first question
+        question2.setVisibility(View.GONE);
+        question3.setVisibility(View.GONE);
+        question4.setVisibility(View.GONE);
+        question5.setVisibility(View.GONE);
+        question6.setVisibility(View.GONE);
+        question7.setVisibility(View.GONE);
+        question8.setVisibility(View.GONE);
+        question9.setVisibility(View.GONE);
+        question10.setVisibility(View.GONE);
+
         Button submit = (Button) findViewById(R.id.finish_button);
 
+        //if savedInstanceState is not null, values of the total score and clicked are loaded
         if (savedInstanceState != null) {
             clicked = savedInstanceState.getBoolean("isFinishClicked");
             score = savedInstanceState.getInt("totalScore");
@@ -61,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
             score = score + 10;
         }
 
+        //the right answer is coloured in GREEN
         fourthAnswer.setTextColor(Color.GREEN);
 
         //the radio buttons are set inactive after pressing the FINISH button
@@ -325,13 +361,104 @@ public class MainActivity extends AppCompatActivity {
      * and displays the score with the Toast
      * It sets the clicked variable to true
      */
-
     public void submitScore(View view) {
         calculateScore();
-        Toast.makeText(this, "Your score is " + score, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Your score is " + score + " out of 100.", Toast.LENGTH_LONG).show();
         Button submit = (Button) findViewById(R.id.finish_button);
         submit.setEnabled(false);
         submit.setTextColor(Color.GRAY);
         clicked = true;
     }
+
+    //next methods are for the Next and Previous buttons
+    public void showPreviousQuestion1(View view) {
+        question1.setVisibility(View.VISIBLE);
+        question2.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion2(View view) {
+        question1.setVisibility(View.GONE);
+        question2.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion2(View view) {
+        question2.setVisibility(View.VISIBLE);
+        question3.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion3(View view) {
+        question2.setVisibility(View.GONE);
+        question3.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion3(View view) {
+        question3.setVisibility(View.VISIBLE);
+        question4.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion4(View view) {
+        question3.setVisibility(View.GONE);
+        question4.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion4(View view) {
+        question4.setVisibility(View.VISIBLE);
+        question5.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion5(View view) {
+        question4.setVisibility(View.GONE);
+        question5.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion5(View view) {
+        question5.setVisibility(View.VISIBLE);
+        question6.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion6(View view) {
+        question5.setVisibility(View.GONE);
+        question6.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion6(View view) {
+        question6.setVisibility(View.VISIBLE);
+        question7.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion7(View view) {
+        question6.setVisibility(View.GONE);
+        question7.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion7(View view) {
+        question7.setVisibility(View.VISIBLE);
+        question8.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion8(View view) {
+        question7.setVisibility(View.GONE);
+        question8.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion8(View view) {
+        question8.setVisibility(View.VISIBLE);
+        question9.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion9(View view) {
+        question8.setVisibility(View.GONE);
+        question9.setVisibility(View.VISIBLE);
+    }
+
+    public void showPreviousQuestion9(View view) {
+        question9.setVisibility(View.VISIBLE);
+        question10.setVisibility(View.GONE);
+    }
+
+    public void showNextQuestion10(View view) {
+        question9.setVisibility(View.GONE);
+        question10.setVisibility(View.VISIBLE);
+    }
+
 }
