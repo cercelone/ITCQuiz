@@ -84,7 +84,7 @@
 
     <!-- the text for the Next, Previous and Finish buttons -->
     <string name="nextButton">Next</string>
-    <string name="previousButton">Previous</string>
+    <string name="previousButton">Back</string>
     <string name="finishButton">Finish</string>
 
 </resources>

@@ -17,6 +17,8 @@
         <item name="android:layout_marginBottom">@dimen/questionMarginBottom</item>
         <item name="android:textColor">@color/primaryText</item>
         <item name="android:textSize">@dimen/questionsTextSize</item>
+        <item name="android:minLines">3</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
 
     <!-- Style for the Next Buttons -->
