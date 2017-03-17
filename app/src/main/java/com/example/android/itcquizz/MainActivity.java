@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     //prevents closing application on Back Button Press
     @Override
     public void onBackPressed() {
-        new AlertDialog.Builder(this)
+        new AlertDialog.Builder(this, R.style.alertStyle)
                 .setTitle(R.string.alertTitle)
                 .setMessage(R.string.alertQuestion)
                 .setNegativeButton(android.R.string.no, null)

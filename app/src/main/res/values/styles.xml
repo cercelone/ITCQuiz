@@ -15,7 +15,7 @@
         <item name="android:background">@drawable/question_background</item>
         <item name="android:padding">@dimen/questionPadding</item>
         <item name="android:layout_marginBottom">@dimen/questionMarginBottom</item>
-        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
         <item name="android:textSize">@dimen/questionsTextSize</item>
         <item name="android:minLines">3</item>
         <item name="android:gravity">center_vertical</item>
@@ -87,4 +87,9 @@
         <item name="android:layout_marginTop">16dp</item>
     </style>
 
+    <!-- Style for the RelativeLayouts that holds the buttons -->
+    <style name="alertStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
 </resources>

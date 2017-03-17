@@ -13,7 +13,7 @@
     <color name="colorAccent">#FF4081</color>
 
     <!-- the color for the text of the questions -->
-    <color name="primaryText">#212121</color>
+    <color name="textColorPrimary">#212121</color>
 
     <!-- the color for the text of the answesr -->
     <color name="secondaryText">#757575</color>
