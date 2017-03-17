@@ -1,8 +1,8 @@
 package com.example.android.itcquizz;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
-import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,12 +11,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     int score; //total score
     boolean clicked = false; //it becomes true if the FINISH button is pressed
+    String name;
 
     CardView question1;
     CardView question2;
@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Intent i = getIntent();
+        name = i.getStringExtra("name");
 
         question1 = (CardView) findViewById(R.id.cardViewQuestion1);
         question2 = (CardView) findViewById(R.id.cardViewQuestion2);
@@ -380,7 +383,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitScore(View view) {
         calculateScore();
-        Toast.makeText(this, "Your score is " + score + " out of 100.", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, name + ", Your score is " + score + " out of 100.", Toast.LENGTH_LONG).show();
         Button submit = (Button) findViewById(R.id.finish_button);
         submit.setEnabled(false);
         submit.setTextColor(Color.GRAY);

@@ -80,16 +80,29 @@
         <item name="contentPaddingBottom">24dp</item>
     </style>
 
-    <!-- Style for the RelativeLayouts that holds the buttons -->
+    <!-- Style for the RelativeLayouts that holds the Next and Back buttons -->
     <style name="relativeLayoutStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">16dp</item>
     </style>
 
-    <!-- Style for the RelativeLayouts that holds the buttons -->
+    <!-- Style for the alertDialog onBackPress -->
     <style name="alertStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
+
+    <!-- Style for the Lunch Screen -->
+    <style name="lunchScreenStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style for the Lunch Screen -->
+    <style name="editText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlHighlight">#ffffff</item>
+        <item name="colorControlActivated">#ffffff</item>
+    </style>
+
 </resources>
