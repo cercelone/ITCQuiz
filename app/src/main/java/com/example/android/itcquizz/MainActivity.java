@@ -1,7 +1,9 @@
 package com.example.android.itcquizz;
 
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.provider.MediaStore;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -76,6 +78,21 @@ public class MainActivity extends AppCompatActivity {
         savedInstanceState.putBoolean("isFinishClicked", clicked);
 
         super.onSaveInstanceState(savedInstanceState);
+    }
+
+    //prevents closing application on Back Button Press
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setTitle("Exit")
+                .setMessage("Want to exit the Quiz App?")
+                .setNegativeButton(android.R.string.no, null)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        MainActivity.super.onBackPressed();
+                    }
+                }).create().show();
     }
 
     // This method checks the answer for the first question
