@@ -4,8 +4,8 @@
     <dimen name="appPaddings">16dp</dimen>
 
     <!-- distance from radioButtons/checkBoxes and text of the answers -->
-    <dimen name="checkBoxLeftPadding">24dp</dimen>
-    <dimen name="radioButtonLeftPadding">24dp</dimen>
+    <dimen name="checkBoxLeftPadding">16dp</dimen>
+    <dimen name="radioButtonLeftPadding">16dp</dimen>
 
     <!-- textSize for the answers -->
     <dimen name="checkBoxTextSize">16sp</dimen>
@@ -21,10 +21,10 @@
     <dimen name="questionMarginBottom">8dp</dimen>
 
     <!-- radioGroup left and right padding -->
-    <dimen name="radioGroupPadding">8dp</dimen>
+    <dimen name="radioGroupPadding">16dp</dimen>
 
     <!-- checkBoxes left and right margin -->
-    <dimen name="checkBoxMargin">8dp</dimen>
+    <dimen name="checkBoxMargin">16dp</dimen>
 
 
 </resources>
