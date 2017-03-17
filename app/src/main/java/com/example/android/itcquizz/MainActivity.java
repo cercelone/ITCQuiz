@@ -84,9 +84,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         new AlertDialog.Builder(this)
-                .setTitle("Exit")
-                .setMessage("Want to exit the Quiz App?")
-                .setNegativeButton(android.R.string.cancel, null)
+                .setTitle(R.string.alertTitle)
+                .setMessage(R.string.alertQuestion)
+                .setNegativeButton(android.R.string.no, null)
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface arg0, int arg1) {

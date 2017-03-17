@@ -87,4 +87,9 @@
     <string name="previousButton">Back</string>
     <string name="finishButton">Finish</string>
 
+    <!-- the text for Alert on -->
+    <string name="alertTitle">Exit</string>
+    <string name="alertQuestion">Want to exit the Quiz App?</string>
+
+
 </resources>
