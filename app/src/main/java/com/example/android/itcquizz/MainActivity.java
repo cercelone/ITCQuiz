@@ -214,11 +214,14 @@ public class MainActivity extends AppCompatActivity {
         EditText fifthQuestion = (EditText) findViewById(R.id.answerQuestion5);
         String answerFifthQuestion = fifthQuestion.getText().toString();
 
-        if (answerFifthQuestion.equalsIgnoreCase("kb") || answerFifthQuestion.equalsIgnoreCase("mb") || answerFifthQuestion.equalsIgnoreCase("GB")) {
+        if (answerFifthQuestion.equalsIgnoreCase("kb") || answerFifthQuestion.equalsIgnoreCase("mb")
+                || answerFifthQuestion.equalsIgnoreCase("GB") || answerFifthQuestion.equalsIgnoreCase("tb")
+                || answerFifthQuestion.equalsIgnoreCase("pb") || answerFifthQuestion.equalsIgnoreCase("eb")
+                || answerFifthQuestion.equalsIgnoreCase("ZB") || answerFifthQuestion.equalsIgnoreCase("YB")) {
+
             score = score + 10;
             fifthQuestion.setTextColor(Color.GREEN);
-        }
-            else
+        } else
             fifthQuestion.setTextColor(Color.RED);
     }
 
@@ -377,7 +380,8 @@ public class MainActivity extends AppCompatActivity {
         clicked = true;
     }
 
-    /** next methods are for the Next and Previous buttons
+    /**
+     * next methods are for the Next and Previous buttons
      * that makes the next/previous question visible
      * and the current question invisible
      */

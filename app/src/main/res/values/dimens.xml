@@ -14,7 +14,7 @@
     <!-- textSize for the questions -->
     <dimen name="questionsTextSize">16sp</dimen>
 
-    <!-- paddings for the questions -->
+    <!-- padding for the questions -->
     <dimen name="questionPadding">8dp</dimen>
 
     <!-- distance between questions and answers -->
@@ -26,5 +26,17 @@
     <!-- checkBoxes left and right margin -->
     <dimen name="checkBoxMargin">16dp</dimen>
 
+    <!-- finishButton right margin -->
+    <dimen name="finishButtonMargin">16dp</dimen>
+
+    <!-- checkBoxes left and right margin -->
+    <dimen name="cardPaddingBottom">24dp</dimen>
+
+    <!-- elements of the SplashScreen -->
+    <dimen name="editTextPadding">20dp</dimen>
+    <dimen name="editTextMargin">20dp</dimen>
+    <dimen name="startButtonPadding">32dp</dimen>
+    <dimen name="layoutPaddingTop">48dp</dimen>
+    <dimen name="layoutPaddingLeftRight">16dp</dimen>
 
 </resources>

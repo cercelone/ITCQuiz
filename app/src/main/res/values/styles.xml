@@ -48,6 +48,7 @@
         <item name="android:background">@drawable/finish_background</item>
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginRight">@dimen/finishButtonMargin</item>
     </style>
 
     <!-- Style for the radio Buttons -->
@@ -61,7 +62,7 @@
     </style>
 
     <!-- Style for the check Boxes -->
-    <style name="checkBoxStyle">
+    <style name="checkBoxStyle" parent="Theme.AppCompat.Light">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
@@ -72,7 +73,7 @@
         <item name="android:textSize">@dimen/checkBoxTextSize</item>
     </style>
 
-    <!-- Style for the radio Gropus -->
+    <!-- Style for the radio Groups -->
     <style name="radioGroupStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -85,16 +86,16 @@
     <style name="cardViewStyle" parent="Theme.AppCompat.Light">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="cardCornerRadius">2dp</item>
-        <item name="cardElevation">2dp</item>
-        <item name="contentPaddingBottom">24dp</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="contentPaddingBottom">@dimen/cardPaddingBottom</item>
     </style>
 
     <!-- Style for the RelativeLayouts that holds the Next and Back buttons -->
     <style name="relativeLayoutStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginTop">@dimen/finishButtonMargin</item>
     </style>
 
     <!-- Style for the alertDialog onBackPress -->
@@ -110,9 +111,25 @@
 
     <!-- Style for the edit Text view from the Lunch Screen -->
     <style name="editText" parent="Theme.AppCompat.Light">
-        <item name="colorControlNormal">#ffffff</item>
-        <item name="colorControlHighlight">#ffffff</item>
-        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:layout_marginBottom">@dimen/editTextMargin</item>
+        <item name="android:layout_marginTop">@dimen/editTextMargin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:textColor">@color/colorIconsText</item>
+    </style>
+
+    <!-- Style for the Start buttone from the Lunch Screen -->
+    <style name="startButton">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/start_button</item>
+        <item name="android:paddingLeft">@dimen/startButtonPadding</item>
+        <item name="android:paddingRight">@dimen/startButtonPadding</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
 </resources>

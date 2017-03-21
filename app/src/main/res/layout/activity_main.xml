@@ -237,11 +237,13 @@
                 <TextView
                     style="@style/questionsStyle"
                     android:text="@string/question_no5" />
+
                 <EditText
                     android:id="@+id/answerQuestion5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/question5_answer"
+                    android:gravity="center"
                     android:maxLength="2"/>
 
                 <RelativeLayout

@@ -35,7 +35,7 @@
     <string name="question4_answ4">.pptx</string>
 
     <!-- Fifth question -->
-    <string name="question_no5">5/10. Write a multiple of Byte?</string>
+    <string name="question_no5">5/10. Write a multiple of Byte!</string>
     <string name="question5_answer">_ _</string>
 
     <!-- Sixth question -->
@@ -86,5 +86,10 @@
     <!-- the text for Alert on -->
     <string name="alertTitle">Exit</string>
     <string name="alertQuestion">Want to exit the Quiz App?</string>
+
+    <!-- Elements of the Splash Screen -->
+    <string name="nameEditTextHint">Your name</string>
+    <string name="startButton">Start</string>
+    <string name="imageDescription">App logo</string>
 
 </resources>
