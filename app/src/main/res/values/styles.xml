@@ -40,6 +40,16 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+    <!-- Style for the Finish Button -->
+    <style name="finishButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/finish_background</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
     <!-- Style for the radio Buttons -->
     <style name="radioButtonStyle">
         <item name="android:layout_width">match_parent</item>
@@ -98,7 +108,7 @@
         <item name="android:windowBackground">@color/colorPrimary</item>
     </style>
 
-    <!-- Style for the Lunch Screen -->
+    <!-- Style for the edit Text view from the Lunch Screen -->
     <style name="editText" parent="Theme.AppCompat.Light">
         <item name="colorControlNormal">#ffffff</item>
         <item name="colorControlHighlight">#ffffff</item>

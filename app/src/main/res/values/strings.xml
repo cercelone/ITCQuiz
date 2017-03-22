@@ -3,7 +3,7 @@
     <string name="app_name">ITC Quiz</string>
 
     <!-- First question -->
-    <string name="question_no1">1. Real time protection of a computer against viruses and malitios atacks ca be done by:</string>
+    <string name="question_no1">1/10. Real time protection of a computer against viruses and malitios atacks ca be done by:</string>
     <!-- answers for the First question -->
     <string name="question1_answ1">Disk Cleanup</string>
     <string name="question1_answ2">Scan Disk</string>
@@ -11,7 +11,7 @@
     <string name="question1_answ4">Disk Management</string>
 
     <!-- Second question -->
-    <string name="question_no2">2. Which one is an Operating System?</string>
+    <string name="question_no2">2/10. Which one is an Operating System?</string>
     <!-- answers for the Second question -->
     <string name="question2_answ1">Google Chrome</string>
     <string name="question2_answ2">Internet Explorer</string>
@@ -19,7 +19,7 @@
     <string name="question2_answ4">Opera</string>
 
     <!-- Third question -->
-    <string name="question_no3">3. Chose the device used to store data.</string>
+    <string name="question_no3">3/10. Chose the device used to store data.</string>
     <!-- answers for the Third question -->
     <string name="question3_answ1">Hard Disk Drive</string>
     <string name="question3_answ2">Monitor</string>
@@ -27,7 +27,7 @@
     <string name="question3_answ4">Joystick</string>
 
     <!-- Fourth question -->
-    <string name="question_no4">4. Choose image file extensions.</string>
+    <string name="question_no4">4/10. Choose image file extensions.</string>
     <!-- answers for the Fourth question -->
     <string name="question4_answ1">.jpg</string>
     <string name="question4_answ2">.pdf</string>
@@ -35,15 +35,11 @@
     <string name="question4_answ4">.pptx</string>
 
     <!-- Fifth question -->
-    <string name="question_no5">5. Which of the following  are multiples of Byte?</string>
-    <!-- answers for the Fifth question -->
-    <string name="question5_answ1">TB</string>
-    <string name="question5_answ2">Hz</string>
-    <string name="question5_answ3">MB</string>
-    <string name="question5_answ4">KHz</string>
+    <string name="question_no5">5/10. Write a multiple of Byte?</string>
+    <string name="question5_answer">_ _</string>
 
     <!-- Sixth question -->
-    <string name="question_no6">6. What is the measure unit of memory? </string>
+    <string name="question_no6">6/10. What is the measure unit of memory? </string>
     <!-- answers for the Sixth question -->
     <string name="question6_answ1">RAM</string>
     <string name="question6_answ2">Byte</string>
@@ -51,7 +47,7 @@
     <string name="question6_answ4">Hz</string>
 
     <!-- Seventh question -->
-    <string name="question_no7">7. Choose email addresses with wrong syntax.</string>
+    <string name="question_no7">7/10. Choose email addresses with wrong syntax.</string>
     <!-- answers for the Seventh question -->
     <string name="question7_answ1">ana@lugojana@yahoo.com</string>
     <string name="question7_answ2">anutza.gmail.com</string>
@@ -59,7 +55,7 @@
     <string name="question7_answ4">office@portal.ro</string>
 
     <!-- Egth question -->
-    <string name="question_no8">8. Choose applications used to navigate on internet.</string>
+    <string name="question_no8">8/10. Choose applications used to navigate on internet.</string>
     <!-- answers for the Eigth question -->
     <string name="question8_answ1">Mozilla Firefox</string>
     <string name="question8_answ2">WordPad</string>
@@ -67,7 +63,7 @@
     <string name="question8_answ4">Internet Explorer</string>
 
     <!-- Ninth question -->
-    <string name="question_no9">9. Choose URLs with correct syntax.</string>
+    <string name="question_no9">9/10. Choose URLs with correct syntax.</string>
     <!-- answers for the Ninth question -->
     <string name="question9_answ1">http://www.google.ro</string>
     <string name="question9_answ2">http://www.ismb.edu.ro/index.php</string>
@@ -75,7 +71,7 @@
     <string name="question9_answ4">http:\math.com</string>
 
     <!-- Tenth question -->
-    <string name="question_no10">10. In SPAM folder of a Mail Application are stored &#8230;</string>
+    <string name="question_no10">10/10. In SPAM folder of a Mail Application are stored &#8230;</string>
     <!-- answers for the Tenth question -->
     <string name="question10_answ1">messages marked for delete</string>
     <string name="question10_answ2">messages edited and not sent</string>
@@ -90,6 +86,5 @@
     <!-- the text for Alert on -->
     <string name="alertTitle">Exit</string>
     <string name="alertQuestion">Want to exit the Quiz App?</string>
-
 
 </resources>

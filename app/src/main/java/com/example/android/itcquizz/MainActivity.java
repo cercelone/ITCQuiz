@@ -10,13 +10,14 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     int score; //total score
     boolean clicked = false; //it becomes true if the FINISH button is pressed
-    String name;
+    String name; //holds the name entered by the user in first screen
 
     CardView question1;
     CardView question2;
@@ -34,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent i = getIntent();
-        name = i.getStringExtra("name");
+        Intent i = getIntent(); //
+        name = i.getStringExtra("name"); //holds the name entered in first screen, to be displayed with the final score
 
         question1 = (CardView) findViewById(R.id.cardViewQuestion1);
         question2 = (CardView) findViewById(R.id.cardViewQuestion2);
@@ -210,29 +211,15 @@ public class MainActivity extends AppCompatActivity {
     // This method checks the answer for the fifth question
     private void checkFifthQuestion() {
 
-        CheckBox fifthQuestion1 = (CheckBox) findViewById(R.id.checkBox5_1);
-        CheckBox fifthQuestion3 = (CheckBox) findViewById(R.id.checkBox5_3);
-        CheckBox fifthQuestion4 = (CheckBox) findViewById(R.id.checkBox5_4);
-        CheckBox fifthQuestion2 = (CheckBox) findViewById(R.id.checkBox5_2);
+        EditText fifthQuestion = (EditText) findViewById(R.id.answerQuestion5);
+        String answerFifthQuestion = fifthQuestion.getText().toString();
 
-        if (fifthQuestion1.isChecked() && fifthQuestion3.isChecked()) {
+        if (answerFifthQuestion.equalsIgnoreCase("kb") || answerFifthQuestion.equalsIgnoreCase("mb") || answerFifthQuestion.equalsIgnoreCase("GB")) {
             score = score + 10;
+            fifthQuestion.setTextColor(Color.GREEN);
         }
-
-        if (fifthQuestion2.isChecked())
-            fifthQuestion2.setTextColor(Color.RED);
-
-        if (fifthQuestion4.isChecked())
-            fifthQuestion4.setTextColor(Color.RED);
-
-        fifthQuestion1.setTextColor(Color.GREEN);
-        fifthQuestion3.setTextColor(Color.GREEN);
-
-        fifthQuestion1.setEnabled(false);
-        fifthQuestion2.setEnabled(false);
-        fifthQuestion3.setEnabled(false);
-        fifthQuestion4.setEnabled(false);
-
+            else
+            fifthQuestion.setTextColor(Color.RED);
     }
 
     // This method checks the answer for the sixth question
@@ -390,7 +377,11 @@ public class MainActivity extends AppCompatActivity {
         clicked = true;
     }
 
-    //next methods are for the Next and Previous buttons
+    /** next methods are for the Next and Previous buttons
+     * that makes the next/previous question visible
+     * and the current question invisible
+     */
+
     public void showPreviousQuestion1(View view) {
         question1.setVisibility(View.VISIBLE);
         question2.setVisibility(View.GONE);
@@ -480,5 +471,4 @@ public class MainActivity extends AppCompatActivity {
         question9.setVisibility(View.GONE);
         question10.setVisibility(View.VISIBLE);
     }
-
 }

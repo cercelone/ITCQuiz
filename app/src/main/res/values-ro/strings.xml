@@ -10,14 +10,16 @@
     <string name="question10_answ4">copii ale mesajelor trimise</string>
     <string name="question1_answ3">Programe anti Spyware si anti virusi</string>
     <string name="question3_answ3">Scaner</string>
-    <string name="question_no2">2. Care din urmatoarele este un Sistem de Operare?</string>
-    <string name="question_no3">3. Alege dispozitivul folosit pentru stocarea datelor.</string>
-    <string name="question_no4">4. Alege extensiile pentru imagini</string>
-    <string name="question_no5">5. Care din urmatoarele sunt multipli ai unui byte?</string>
-    <string name="question_no6">6. Care este unitatea de masura a memoriei?</string>
-    <string name="question_no7">7. Alege adresele de email scrise gresit.</string>
-    <string name="question_no8">8. Alege aplicatiile folosite pentru a naviga pe internet.</string>
-    <string name="question_no9">9. Alege URL urile cu sintaxa corecta.</string>
-    <string name="question_no10">10. In folderul SPAM al unei casute de email sunt pastrate &#8230;</string>
-    <string name="question_no1">1. Protectia in timp real a calculatorului impotriva virusilor si atacurilor malitioase se face prin:</string>
+    <string name="question_no2">2/10. Care din urmatoarele este un Sistem de Operare?</string>
+    <string name="question_no3">3/10. Alege dispozitivul folosit pentru stocarea datelor.</string>
+    <string name="question_no4">4/10. Alege extensiile pentru imagini</string>
+    <string name="question_no5">5/10. Care din urmatoarele sunt multipli ai unui byte?</string>
+    <string name="question_no6">6/10. Care este unitatea de masura a memoriei?</string>
+    <string name="question_no7">7/10. Alege adresele de email scrise gresit.</string>
+    <string name="question_no8">8/10. Alege aplicatiile folosite pentru a naviga pe internet.</string>
+    <string name="question_no9">9/10. Alege URL urile cu sintaxa corecta.</string>
+    <string name="question_no10">10/10. In folderul SPAM al unei casute de email sunt pastrate &#8230;</string>
+    <string name="question_no1">1/10. Protectia in timp real a calculatorului impotriva virusilor si atacurilor malitioase se face prin:</string>
+    <string name="alertQuestion">Doresti sa parasesti aplicatia?</string>
+    <string name="alertTitle"></string>
 </resources>

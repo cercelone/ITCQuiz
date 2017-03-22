@@ -13,525 +13,512 @@
         android:orientation="vertical"
         android:padding="@dimen/appPaddings">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion1"
-        style="@style/cardViewStyle">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion1"
+            style="@style/cardViewStyle">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no1" />
-
-            <RadioGroup
-                android:id="@+id/radioGroup1"
-                style="@style/radioGroupStyle">
-
-                <RadioButton
-                    android:id="@+id/radioButton1_1"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question1_answ1" />
-
-                <RadioButton
-                    android:id="@+id/radioButton1_2"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question1_answ2" />
-
-                <RadioButton
-                    android:id="@+id/radioButton1_3"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question1_answ4" />
-
-                <RadioButton
-                    android:id="@+id/radioButton1_4"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question1_answ3" />
-
-            </RadioGroup>
-
-            <RelativeLayout style="@style/relativeLayoutStyle">
-
-                <Button
-                    android:id="@+id/question1ButtonNext"
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion2"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion2"
-        style="@style/cardViewStyle">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no2" />
-
-            <RadioGroup
-                android:id="@+id/radioGroup2"
-                style="@style/radioGroupStyle">
-
-                <RadioButton
-                    android:id="@+id/radioButton2_1"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question2_answ1" />
-
-                <RadioButton
-                    android:id="@+id/radioButton2_2"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question2_answ2" />
-
-                <RadioButton
-                    android:id="@+id/radioButton2_3"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question2_answ3" />
-
-                <RadioButton
-                    android:id="@+id/radioButton2_4"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question2_answ4" />
-            </RadioGroup>
-
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/question2ButtonPrevious"
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion1"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no1" />
 
-                <Button
-                    android:id="@+id/question2ButtonNext"
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion3"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    style="@style/radioGroupStyle">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion3"
-        style="@style/cardViewStyle">
+                    <RadioButton
+                        android:id="@+id/radioButton1_1"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question1_answ1" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                    <RadioButton
+                        android:id="@+id/radioButton1_2"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question1_answ2" />
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no3" />
+                    <RadioButton
+                        android:id="@+id/radioButton1_3"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question1_answ4" />
 
-            <RadioGroup style="@style/radioGroupStyle">
+                    <RadioButton
+                        android:id="@+id/radioButton1_4"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question1_answ3" />
 
-                <RadioButton
-                    android:id="@+id/radioButton3_1"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question3_answ1" />
+                </RadioGroup>
 
-                <RadioButton
-                    android:id="@+id/radioButton3_2"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question3_answ2" />
+                <RelativeLayout style="@style/relativeLayoutStyle">
 
-                <RadioButton
-                    android:id="@+id/radioButton3_3"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question3_answ3" />
+                    <Button
+                        android:id="@+id/question1ButtonNext"
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion2"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-                <RadioButton
-                    android:id="@+id/radioButton3_4"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question3_answ4" />
-            </RadioGroup>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion2"
+            style="@style/cardViewStyle">
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/question3ButtonPrevious"
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion2"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no2" />
 
-                <Button
-                    android:id="@+id/question3ButtonNext"
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion4"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    style="@style/radioGroupStyle">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion4"
-        style="@style/cardViewStyle">
+                    <RadioButton
+                        android:id="@+id/radioButton2_1"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question2_answ1" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                    <RadioButton
+                        android:id="@+id/radioButton2_2"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question2_answ2" />
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no4" />
+                    <RadioButton
+                        android:id="@+id/radioButton2_3"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question2_answ3" />
 
-            <CheckBox
-                android:id="@+id/checkBox4_1"
-                style="@style/checkBoxStyle"
-                android:text="@string/question4_answ1" />
+                    <RadioButton
+                        android:id="@+id/radioButton2_4"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question2_answ4" />
+                </RadioGroup>
 
-            <CheckBox
-                android:id="@+id/checkBox4_2"
-                style="@style/checkBoxStyle"
-                android:text="@string/question4_answ2" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/checkBox4_3"
-                style="@style/checkBoxStyle"
-                android:text="@string/question4_answ3" />
+                    <Button
+                        android:id="@+id/question2ButtonPrevious"
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion1"
+                        android:text="@string/previousButton" />
 
-            <CheckBox
-                android:id="@+id/checkBox4_4"
-                style="@style/checkBoxStyle"
-                android:text="@string/question4_answ4" />
+                    <Button
+                        android:id="@+id/question2ButtonNext"
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion3"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-            <RelativeLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion3"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion3"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no3" />
 
-                <Button
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion5"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <RadioGroup style="@style/radioGroupStyle">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion5"
-        style="@style/cardViewStyle">
+                    <RadioButton
+                        android:id="@+id/radioButton3_1"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question3_answ1" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                    <RadioButton
+                        android:id="@+id/radioButton3_2"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question3_answ2" />
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no5" />
+                    <RadioButton
+                        android:id="@+id/radioButton3_3"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question3_answ3" />
 
-            <CheckBox
-                android:id="@+id/checkBox5_1"
-                style="@style/checkBoxStyle"
-                android:text="@string/question5_answ1" />
+                    <RadioButton
+                        android:id="@+id/radioButton3_4"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question3_answ4" />
+                </RadioGroup>
 
-            <CheckBox
-                android:id="@+id/checkBox5_2"
-                style="@style/checkBoxStyle"
-                android:text="@string/question5_answ2" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/checkBox5_3"
-                style="@style/checkBoxStyle"
-                android:text="@string/question5_answ3" />
+                    <Button
+                        android:id="@+id/question3ButtonPrevious"
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion2"
+                        android:text="@string/previousButton" />
 
-            <CheckBox
-                android:id="@+id/checkBox5_4"
-                style="@style/checkBoxStyle"
-                android:text="@string/question5_answ4" />
+                    <Button
+                        android:id="@+id/question3ButtonNext"
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion4"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-            <RelativeLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion4"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion4"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no4" />
 
-                <Button
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion6"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
+                <CheckBox
+                    android:id="@+id/checkBox4_1"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question4_answ1" />
 
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <CheckBox
+                    android:id="@+id/checkBox4_2"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question4_answ2" />
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion6"
-        style="@style/cardViewStyle">
+                <CheckBox
+                    android:id="@+id/checkBox4_3"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question4_answ3" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                <CheckBox
+                    android:id="@+id/checkBox4_4"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question4_answ4" />
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no6" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <RadioGroup style="@style/radioGroupStyle">
+                    <Button
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion3"
+                        android:text="@string/previousButton" />
 
-                <RadioButton
-                    android:id="@+id/radioButton6_1"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question6_answ1" />
+                    <Button
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion5"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-                <RadioButton
-                    android:id="@+id/radioButton6_2"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question6_answ2" />
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion5"
+            style="@style/cardViewStyle">
 
-                <RadioButton
-                    android:id="@+id/radioButton6_3"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question6_answ3" />
-
-                <RadioButton
-                    android:id="@+id/radioButton6_4"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question6_answ4" />
-            </RadioGroup>
-
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion5"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no5" />
+                <EditText
+                    android:id="@+id/answerQuestion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/question5_answer"
+                    android:maxLength="2"/>
 
-                <Button
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion7"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion7"
-        style="@style/cardViewStyle">
+                    <Button
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion4"
+                        android:text="@string/previousButton" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                    <Button
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion6"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no7" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-            <CheckBox
-                android:id="@+id/checkBox7_1"
-                style="@style/checkBoxStyle"
-                android:text="@string/question7_answ1" />
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion6"
+            style="@style/cardViewStyle">
 
-            <CheckBox
-                android:id="@+id/checkBox7_2"
-                style="@style/checkBoxStyle"
-                android:text="@string/question7_answ2" />
-
-            <CheckBox
-                android:id="@+id/checkBox7_3"
-                style="@style/checkBoxStyle"
-                android:text="@string/question7_answ3" />
-
-            <CheckBox
-                android:id="@+id/checkBox7_4"
-                style="@style/checkBoxStyle"
-                android:text="@string/question7_answ4" />
-
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion6"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no6" />
 
-                <Button
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion8"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <RadioGroup style="@style/radioGroupStyle">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion8"
-        style="@style/cardViewStyle">
+                    <RadioButton
+                        android:id="@+id/radioButton6_1"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question6_answ1" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                    <RadioButton
+                        android:id="@+id/radioButton6_2"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question6_answ2" />
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no8" />
+                    <RadioButton
+                        android:id="@+id/radioButton6_3"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question6_answ3" />
 
-            <CheckBox
-                android:id="@+id/checkBox8_1"
-                style="@style/checkBoxStyle"
-                android:text="@string/question8_answ1" />
+                    <RadioButton
+                        android:id="@+id/radioButton6_4"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question6_answ4" />
+                </RadioGroup>
 
-            <CheckBox
-                android:id="@+id/checkBox8_2"
-                style="@style/checkBoxStyle"
-                android:text="@string/question8_answ2" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/checkBox8_3"
-                style="@style/checkBoxStyle"
-                android:text="@string/question8_answ3" />
+                    <Button
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion5"
+                        android:text="@string/previousButton" />
 
-            <CheckBox
-                android:id="@+id/checkBox8_4"
-                style="@style/checkBoxStyle"
-                android:text="@string/question8_answ4" />
+                    <Button
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion7"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-            <RelativeLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion7"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion7"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no7" />
 
-                <Button
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion9"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <CheckBox
+                    android:id="@+id/checkBox7_1"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question7_answ1" />
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion9"
-        style="@style/cardViewStyle">
+                <CheckBox
+                    android:id="@+id/checkBox7_2"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question7_answ2" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                <CheckBox
+                    android:id="@+id/checkBox7_3"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question7_answ3" />
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no9" />
+                <CheckBox
+                    android:id="@+id/checkBox7_4"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question7_answ4" />
 
-            <CheckBox
-                android:id="@+id/checkBox9_1"
-                style="@style/checkBoxStyle"
-                android:text="@string/question9_answ1" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/checkBox9_2"
-                style="@style/checkBoxStyle"
-                android:text="@string/question9_answ2" />
+                    <Button
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion6"
+                        android:text="@string/previousButton" />
 
-            <CheckBox
-                android:id="@+id/checkBox9_3"
-                style="@style/checkBoxStyle"
-                android:text="@string/question9_answ3" />
+                    <Button
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion8"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-            <CheckBox
-                android:id="@+id/checkBox9_4"
-                style="@style/checkBoxStyle"
-                android:text="@string/question9_answ4" />
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion8"
+            style="@style/cardViewStyle">
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion8"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no8" />
 
-                <Button
-                    style="@style/nextButtonsStyle"
-                    android:onClick="showNextQuestion10"
-                    android:text="@string/nextButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <CheckBox
+                    android:id="@+id/checkBox8_1"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question8_answ1" />
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewQuestion10"
-        style="@style/cardViewStyle">
+                <CheckBox
+                    android:id="@+id/checkBox8_2"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question8_answ2" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                <CheckBox
+                    android:id="@+id/checkBox8_3"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question8_answ3" />
 
-            <TextView
-                style="@style/questionsStyle"
-                android:text="@string/question_no10" />
+                <CheckBox
+                    android:id="@+id/checkBox8_4"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question8_answ4" />
 
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <RadioGroup style="@style/radioGroupStyle">
+                    <Button
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion7"
+                        android:text="@string/previousButton" />
 
-                <RadioButton
-                    android:id="@+id/radioButton10_1"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question10_answ1" />
+                    <Button
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion9"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-                <RadioButton
-                    android:id="@+id/radioButton10_2"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question10_answ2" />
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion9"
+            style="@style/cardViewStyle">
 
-                <RadioButton
-                    android:id="@+id/radioButton10_3"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question10_answ3" />
-
-                <RadioButton
-                    android:id="@+id/radioButton10_4"
-                    style="@style/radioButtonStyle"
-                    android:text="@string/question10_answ4" />
-            </RadioGroup>
-
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <Button
-                    style="@style/previousButtonsStyle"
-                    android:onClick="showPreviousQuestion9"
-                    android:text="@string/previousButton" />
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no9" />
 
-                <Button
-                    android:id="@+id/finish_button"
-                    style="@style/nextButtonsStyle"
-                    android:onClick="submitScore"
-                    android:text="@string/finishButton" />
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-</LinearLayout>
+                <CheckBox
+                    android:id="@+id/checkBox9_1"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question9_answ1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9_2"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question9_answ2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9_3"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question9_answ3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9_4"
+                    style="@style/checkBoxStyle"
+                    android:text="@string/question9_answ4" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion8"
+                        android:text="@string/previousButton" />
+
+                    <Button
+                        style="@style/nextButtonsStyle"
+                        android:onClick="showNextQuestion10"
+                        android:text="@string/nextButton" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewQuestion10"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="@string/question_no10" />
+
+
+                <RadioGroup style="@style/radioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/radioButton10_1"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question10_answ1" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton10_2"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question10_answ2" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton10_3"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question10_answ3" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton10_4"
+                        style="@style/radioButtonStyle"
+                        android:text="@string/question10_answ4" />
+                </RadioGroup>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="@style/previousButtonsStyle"
+                        android:onClick="showPreviousQuestion9"
+                        android:text="@string/previousButton" />
+
+                    <Button
+                        android:id="@+id/finish_button"
+                        style="@style/finishButtonStyle"
+                        android:onClick="submitScore"
+                        android:text="@string/finishButton" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
 </ScrollView>
