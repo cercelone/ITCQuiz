@@ -9,20 +9,12 @@
     android:paddingRight="16dp"
     android:paddingTop="48dp">
 
-    <TextView
-        android:layout_width="match_parent"
+    <ImageView
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:textColor="@color/colorIconsText"
-        android:textSize="28sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="test your knowledge"
-        android:textColor="@color/colorIconsText" />
+        android:layout_width="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center">
+        </ImageView>
 
     <EditText
         android:id="@+id/name_edit_text"
