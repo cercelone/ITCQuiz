@@ -43,26 +43,20 @@
         <item name="android:layout_marginRight">@dimen/finishButtonMargin</item>
     </style>
 
-    <!-- Style for the radio Buttons -->
-    <style name="radioButtonStyle">
+    <!-- Style for the answers -->
+    <style name="answer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:textColor">@color/secondaryText</item>
-        <item name="android:paddingLeft">@dimen/radioButtonLeftPadding</item>
-        <item name="android:textSize">@dimen/radioButtonTextSize</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:paddingLeft">@dimen/answerLeftPadding</item>
+        <item name="android:textSize">@dimen/answerTextSize</item>
     </style>
 
     <!-- Style for the check Boxes -->
-    <style name="checkBoxStyle" parent="Theme.AppCompat.Light">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:textColor">@color/secondaryText</item>
-        <item name="android:paddingLeft">@dimen/checkBoxLeftPadding</item>
+    <style name="answer.checkBox">
         <item name="android:layout_marginLeft">@dimen/checkBoxMargin</item>
         <item name="android:layout_marginRight">@dimen/checkBoxMargin</item>
-        <item name="android:textSize">@dimen/checkBoxTextSize</item>
     </style>
 
     <!-- Style for the radio Groups -->
@@ -79,8 +73,8 @@
     <style name="cardViewStyle" parent="Theme.AppCompat.Light">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
-        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardCornerRadius">@dimen/cardRadius</item>
+        <item name="cardElevation">@dimen/cardElevation</item>
         <item name="contentPaddingBottom">@dimen/cardPaddingBottom</item>
     </style>
 
@@ -90,6 +84,8 @@
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_marginTop">@dimen/finishButtonMargin</item>
+        <item name="android:paddingTop">@dimen/relativePadding</item>
+        <item name="android:background">@drawable/relativebackground</item>
     </style>
 
     <!-- Style for the alertDialog onBackPress -->
@@ -98,7 +94,7 @@
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
-    <!-- Style for the edit Text view from the Lunch Screen -->
+    <!-- Style for the editText view from the Lunch Screen -->
     <style name="editText" parent="Theme.AppCompat.Light">
         <item name="android:layout_marginBottom">@dimen/editTextMargin</item>
         <item name="android:layout_marginTop">@dimen/editTextMargin</item>

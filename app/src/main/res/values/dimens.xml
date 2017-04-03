@@ -3,19 +3,17 @@
     <!-- padding for the quizz -->
     <dimen name="appPaddings">16dp</dimen>
 
-    <!-- distance from radioButtons/checkBoxes and text of the answers -->
-    <dimen name="checkBoxLeftPadding">16dp</dimen>
-    <dimen name="radioButtonLeftPadding">16dp</dimen>
+    <!-- distance between radioButtons/checkBoxes and text of the answers -->
+    <dimen name="answerLeftPadding">16dp</dimen>
 
     <!-- textSize for the answers -->
-    <dimen name="checkBoxTextSize">16sp</dimen>
-    <dimen name="radioButtonTextSize">16sp</dimen>
+    <dimen name="answerTextSize">18sp</dimen>
 
     <!-- textSize for the questions -->
     <dimen name="questionsTextSize">20dp</dimen>
 
     <!-- padding for the questions -->
-    <dimen name="questionPadding">8dp</dimen>
+    <dimen name="questionPadding">16dp</dimen>
 
     <!-- distance between questions and answers -->
     <dimen name="questionMarginBottom">8dp</dimen>
@@ -28,9 +26,14 @@
 
     <!-- finishButton right margin -->
     <dimen name="finishButtonMargin">16dp</dimen>
+    <dimen name="relativePadding">8dp</dimen>
 
     <!-- checkBoxes left and right margin -->
     <dimen name="cardPaddingBottom">24dp</dimen>
+    <dimen name="cardElevation">4dp</dimen>
+    <dimen name="cardRadius">4dp</dimen>
+
+    <dimen name="dividerHeight">1dp</dimen>
 
     <!-- elements of the SplashScreen -->
     <dimen name="editTextPadding">20dp</dimen>
