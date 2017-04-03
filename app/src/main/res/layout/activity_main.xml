@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +11,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion1"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="8dp"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +70,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion2"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="8dp"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,7 +134,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion3"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="8dp"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -189,7 +196,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion4"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="8dp"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -244,7 +253,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion5"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="@dimen/cardElevation"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -289,7 +300,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion6"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="@dimen/cardElevation"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -347,7 +360,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion7"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="@dimen/cardElevation"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -402,7 +417,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion8"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="@dimen/cardElevation"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -457,7 +474,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion9"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="@dimen/cardElevation"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -512,7 +531,9 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardViewQuestion10"
-        style="@style/cardViewStyle">
+        style="@style/cardViewStyle"
+        card_view:cardElevation="@dimen/cardElevation"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
