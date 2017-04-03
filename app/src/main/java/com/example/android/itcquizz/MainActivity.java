@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     CardView question8;
     CardView question9;
     CardView question10;
+    EditText fifthQuestion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         question10.setVisibility(View.GONE);
 
         Button submit = (Button) findViewById(R.id.finish_button);
+        fifthQuestion = (EditText) findViewById(R.id.answerQuestion5);
 
         //if savedInstanceState is not null, values of the total score and clicked are loaded
         if (savedInstanceState != null) {
@@ -210,8 +212,6 @@ public class MainActivity extends AppCompatActivity {
 
     // This method checks the answer for the fifth question
     private void checkFifthQuestion() {
-
-        EditText fifthQuestion = (EditText) findViewById(R.id.answerQuestion5);
         String answerFifthQuestion = fifthQuestion.getText().toString();
 
         if (answerFifthQuestion.equalsIgnoreCase("kb") || answerFifthQuestion.equalsIgnoreCase("mb")
@@ -377,6 +377,7 @@ public class MainActivity extends AppCompatActivity {
         Button submit = (Button) findViewById(R.id.finish_button);
         submit.setEnabled(false);
         submit.setTextColor(Color.GRAY);
+        fifthQuestion.setEnabled(false);
         clicked = true;
     }
 

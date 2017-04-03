@@ -12,7 +12,7 @@
     <dimen name="radioButtonTextSize">16sp</dimen>
 
     <!-- textSize for the questions -->
-    <dimen name="questionsTextSize">16sp</dimen>
+    <dimen name="questionsTextSize">20dp</dimen>
 
     <!-- padding for the questions -->
     <dimen name="questionPadding">8dp</dimen>
