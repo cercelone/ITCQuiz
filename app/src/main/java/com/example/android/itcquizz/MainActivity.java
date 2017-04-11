@@ -29,7 +29,10 @@ public class MainActivity extends AppCompatActivity {
     CardView question8;
     CardView question9;
     CardView question10;
+
     EditText fifthQuestion;
+
+    Button submit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         question9.setVisibility(View.GONE);
         question10.setVisibility(View.GONE);
 
-        Button submit = (Button) findViewById(R.id.finish_button);
+        submit = (Button) findViewById(R.id.finish_button);
         fifthQuestion = (EditText) findViewById(R.id.answerQuestion5);
 
         //if savedInstanceState is not null, values of the total score and clicked are loaded
@@ -72,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
             if (clicked) {
                 submit.setEnabled(false);
                 submit.setTextColor(Color.GRAY);
+                calculateScore();
             }
         }
     }
@@ -108,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         RadioButton thirdAnswer = (RadioButton) findViewById(R.id.radioButton1_3);
         RadioButton fourthAnswer = (RadioButton) findViewById(R.id.radioButton1_4);
 
-        //if wrong radiobuttons are pressed, they are coloured in red
+        //if wrong radio buttons are pressed, they are coloured in red
         if (firstAnswer.isChecked())
             firstAnswer.setTextColor(Color.RED);
         if (secondAnswer.isChecked())
@@ -374,7 +378,6 @@ public class MainActivity extends AppCompatActivity {
     public void submitScore(View view) {
         calculateScore();
         Toast.makeText(this, name + ", Your score is " + score + " out of 100.", Toast.LENGTH_LONG).show();
-        Button submit = (Button) findViewById(R.id.finish_button);
         submit.setEnabled(false);
         submit.setTextColor(Color.GRAY);
         fifthQuestion.setEnabled(false);
